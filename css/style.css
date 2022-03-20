@@ -1210,12 +1210,12 @@
      max-width: calc(100% - 15px);
 }
  .social-media button.close-button {
-     border: 2;
+     border: 0;
      color: #d21f3c;
-     font-size: 20px;
+     font-size: 18px;
      position: absolute;
      top: 5px;
-     right: 7px;
+     right: 5px;
 }
  .social-media button.close-button:hover {
      color: #fff;
