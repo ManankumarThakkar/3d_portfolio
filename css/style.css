@@ -610,9 +610,44 @@
          font-size: 5vh;
     }
      .home-content p {
-         font-size: 1vh;
+         font-size: 3vh;
     }
 }
+
+.scroll-down{
+    position: absolute;
+    right: -1125px;
+    bottom: 3.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+    display: block;
+    font-size: 18px;
+}
+.scroll-down-left{
+    left: -200px;
+    right: auto;
+}
+.scroll-down span{
+    display: inline-block;
+    animation: scroll .5s linear infinite alternate-reverse;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(-7px);
+    }
+    100%{
+        transform: translateX(7px);
+    }
+}
+.scroll-down .fa{
+    transform: rotate(270deg);
+    margin-left: 8px;
+}
+
+
 /*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
  / section {
      position: relative;
