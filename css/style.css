@@ -617,7 +617,7 @@
 .scroll-down{
     position: absolute;
     right: -1125px;
-    bottom: 3.8rem;
+    bottom: 4.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
