@@ -727,20 +727,20 @@
      background-size: cover;
 }
 /*-----------------------------------------------------------------------------------*/
-/* Behavioral Skills 
+/* Behavioural Skills 
 /*-----------------------------------------------------------------------------------*/
- .behavioralskills {
+ .behaviouralskills {
      float: left;
      clear: both;
      width: 100%;
 }
- .behavioralskills ul {
+ .behaviouralskills ul {
      display: block;
      list-style: none;
      margin: 0;
      padding: 0;
 }
- .behavioralskills li {
+ .behaviouralskills li {
      display: inline;
      list-style: none;
      margin: 0;
@@ -754,16 +754,16 @@
      margin-bottom: 1px;
      font-size: 15px;
 }
- .behavioralskills .creativity {
+ .behaviouralskills .creativity {
      background: #f58d00;
 }
- .behavioralskills .communication {
+ .behaviouralskills .communication {
      background: #0097aa;
 }
- .behavioralskills .teamwork {
+ .behaviouralskills .teamwork {
      background: #d32c2c;
 }
- .behavioralskills .problemsolving {
+ .behaviouralskills .problemsolving {
      background: #00a9ec;
 }
  .get {
