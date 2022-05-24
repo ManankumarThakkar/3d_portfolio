@@ -897,7 +897,7 @@
 /* Project 
 /*-----------------------------------------------------------------------------------*/
  #project {
-     z-index: 10;
+     /*z-index: 10;*/
      background: #fff;
      position: relative;
 }
@@ -1181,10 +1181,10 @@
      filter: opacity(0.18);
 }
  .night .rightgear {
-     filter: opacity(0.2);
+     filter: opacity(0.8);
 }
  .night .leftgear {
-     filter: opacity(0.2);
+     filter: opacity(0.8);
 }
  .mobileShow {
      display: none;
