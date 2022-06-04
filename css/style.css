@@ -898,11 +898,11 @@
 /*-----------------------------------------------------------------------------------*/
  #project {
      z-index: 10;
-     background: #fff;
+     background: rgba(255, 255, 255, 0.06);
      position: relative;
 }
  .night #project {
-     background: #171c28;
+      background: rgba(0, 1, 4, 0);
 }
  #project .project-list {
      margin-bottom: 30px;
