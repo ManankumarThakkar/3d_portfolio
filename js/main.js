@@ -88,7 +88,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: [ "Designer", "Developer", "Software Engineer", "Data Analyst"],
+      strings: [ "Designer", "Developer", "Software Engineer"],
       typeSpeed: 100,
       loop: true,
     });
