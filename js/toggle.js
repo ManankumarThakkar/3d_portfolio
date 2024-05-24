@@ -1,7 +1,7 @@
 $(function() {
     const d = new Date();
     const hours = d.getHours();
-    const night = hours >= 6 || hours < 22; // between 6am and 10pm
+    const night = hours >= 18 || hours < 6; // between 6am and 10pm
     const body = document.querySelector('body');
     const toggle = document.getElementById('toggle');
     const input = document.getElementById('switch');
